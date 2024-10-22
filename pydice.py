@@ -16,7 +16,7 @@
     $FileInfo: pydice.py - Last Update: 1/4/2021 Ver. 0.3.0 RC 1 - Author: joshuatp $
 '''
 
-from __future__ import division, absolute_import, print_function
+from __future__ import absolute_import, division, print_function, unicode_literals, generators, with_statement, nested_scopes
 from collections import OrderedDict
 import re
 import random
