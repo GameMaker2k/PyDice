@@ -70,7 +70,7 @@ pymodule['verdate'] = str(setuppy_dateinfo_exp[0])+"." + \
 pymodule['verdaterc'] = int(setuppy_dateinfo_exp[4])
 pymodule['verdatelist'] = (int(setuppy_dateinfo_exp[0]), int(setuppy_dateinfo_exp[1]), int(
     setuppy_dateinfo_exp[2]), str(setuppy_dateinfo_exp[3]), int(setuppy_dateinfo_exp[4]))
-pymodule['name'] = 'PyDice'
+pymodule['name'] = 'PyDiceRand'
 pymodule['author'] = 'Joshua Przyborowski'
 pymodule['authoremail'] = 'joshua.przyborowski@gmail.com'
 pymodule['maintainer'] = 'Joshua Przyborowski'
