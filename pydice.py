@@ -13,7 +13,7 @@
     Copyright 2016-2021 Game Maker 2k - https://github.com/GameMaker2k
     Copyright 2016-2021 Joshua Przyborowski - https://github.com/JoshuaPrzyborowski
 
-    $FileInfo: pydice.py - Last Update: 1/4/2021 Ver. 0.3.0 RC 1 - Author: joshuatp $
+    $FileInfo: pydice.py - Last Update: 1/4/2021 Ver. 0.3.2 RC 1 - Author: joshuatp $
 '''
 
 from __future__ import absolute_import, division, print_function, unicode_literals, generators, with_statement, nested_scopes
@@ -28,8 +28,8 @@ except ImportError:
 __program_name__ = "PyDice-Roll"
 __project__ = __program_name__
 __project_url__ = "https://github.com/JoshuaPrzyborowski/PyDice"
-__version_info__ = (0, 3, 0, "RC 1", 1)
-__version_date_info__ = (2020, 1, 4, "RC 1", 1)
+__version_info__ = (0, 3, 2, "RC 1", 1)
+__version_date_info__ = (2024, 10, 22, "RC 1", 1)
 __version_date__ = str(__version_date_info__[0])+"."+str(__version_date_info__[
     1]).zfill(2)+"."+str(__version_date_info__[2]).zfill(2)
 if(__version_info__[4] != None):
