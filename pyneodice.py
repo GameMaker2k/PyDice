@@ -39,11 +39,6 @@ if(__version_info__[3] == None):
     __version__ = str(
         __version_info__[0])+"."+str(__version_info__[1])+"."+str(__version_info__[2])
 
-
-from __future__ import division, print_function
-import re
-import random
-
 class DiceRoller:
     def __init__(self, seed=None):
         self.random = random.Random(seed)
